@@ -1,9 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://rsms.me/inter/inter.css');
 
 :root {
     font-family: 'DM Serif Display', serif;
     font-size: 8px;
     --primary: #0F50A6;
+    --black: #111112;
+    --dark-gray: #333333;
+    --logo-blue: #9FB9DB;
+
 }
 
 .header {
@@ -28,7 +35,27 @@
     }
 }
 
-/***** navigation styles *****/
+a:focus {
+        border: 2px solid #0F50A6;
+        padding: 0.25rem;
+}
+
+/***** SKIP LINKS *****/
+.skip-links a {
+    background-color: var(--primary, #0F50A6);
+    
+    color: white;
+    font-size: 2rem;
+    position: absolute;
+    padding: 0.75rem 0.75rem;
+    top: -5rem;
+    
+}
+
+.skip-links a:focus {
+    top: 0;
+}
+/***** NAVIGATION STYLES *****/
 
 nav {
     display: flex;
@@ -37,9 +64,20 @@ nav {
 }
 
 nav h1 {
-    font-size: 2rem;
+    -webkit-text-stroke: 0.5px #0F50A6;
+    font-size: 3rem;
+    color: var(--logo-blue);
     width: 40%;
-    padding: 3rem 2rem;
+    padding: 2.25rem 2rem;
+}
+
+nav h1 a:visited {
+    color:inherit;
+    -webkit-text-stroke: inherit;
+}
+
+nav a {
+    text-decoration: none;
 }
 
 nav ul {
@@ -48,7 +86,7 @@ nav ul {
 }
 
 nav li {
-    font-size: 2rem;
+    font-size: 2.5rem;
     float: right;
     padding: 3rem;
 }
@@ -58,7 +96,12 @@ li a {
     color: var(--primary, #0F50A6);
 }
 
-/* hero */
+li a:hover {
+    text-decoration: none;
+    border-bottom: 4px solid var(--primary, #0F50A6);
+}
+
+/* Homepage Hero */
 
 .hero {
     display: flex;
@@ -66,14 +109,65 @@ li a {
     height: 100vh;
 }
 
+
+
 .hero h1 {
-    font-size: 5rem;
-    line-height: 1;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 4.5rem;
+    color: var(--dark-gray, #333333);
+    line-height: 0.9;
     text-transform: uppercase;
 }
 
-@media all and (min-width: 768px) {
+.hero h1 span {
+    color: var(--primary, #0F50A6);
+}
+
+.hero p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    color: var(--black);
+    padding-top: 10px;
+    width: 70%;
+    
+}
+
+@media all and (min-width: 568px) {
     .hero h1 {
-        font-size: 10rem;
+        font-size: 5.5rem;
     }
 }
+
+@media all and (min-width: 1180px) {
+    .hero h1 {
+        font-size: 8rem;
+    }
+}
+
+
+
+/* Project Hero */
+.project-hero h1 {
+    font-family: Roboto sans-serif;
+    color: red;
+}
+
+.project-section {
+    padding-bottom: 10rem;
+}
+
+.section-heading {
+    font-family: 'Inter', sans-serif;
+    font-size: 6rem;
+    font-weight: bold;
+    color: var(--black, #111112);
+    padding-bottom: 3rem;
+}
+
+.section-text {
+        font-family: 'Inter', sans-serif;
+        font-size: 2.5rem;
+        color: var(--black, #111112);
+        line-height: 4rem;
+}
+
