@@ -20,7 +20,7 @@
     height: 100vh;
 }
 
-.container {
+.container, .content-container{
     margin: 0 auto;
     width: 96%;
 }
@@ -35,6 +35,11 @@
     .container {
         width: 70%;
     }
+
+    .content-container {
+        width: 60%;
+    }
+
 }
 
 a:focus {
@@ -65,7 +70,7 @@ nav {
     width: 100%;
 }
 
-nav h1 {
+nav h2 {
     -webkit-text-stroke: 0.5px #0F50A6;
     font-size: 3rem;
     color: var(--logo-blue);
@@ -73,7 +78,7 @@ nav h1 {
     padding: 2.25rem 2rem;
 }
 
-nav h1 a:visited {
+nav h2 a:visited {
     color:inherit;
     -webkit-text-stroke: inherit;
 }
@@ -122,6 +127,10 @@ li a:hover {
 
 .hero h1 span {
     color: var(--primary, #0F50A6);
+}
+
+.hero h1 .fade {
+    color: #aaa;
 }
 
 .hero p {
