@@ -331,6 +331,13 @@ li a:hover {
     display: flex;
 }
 
+.image-background {
+    background-color: #F6F9FE;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    width: 100%;
+}
+
 .image-side-by-side-1 {
     flex: 05633802817;
 }
