@@ -221,12 +221,21 @@ li a:hover {
 }
 
 .hero p {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 2rem;
     color: var(--black);
     padding-top: 10px;
     width: 70%;
     
+}
+
+@media all and (min-width: 300px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+    .hero p {
+        font-size: 1.5rem;
+    }
 }
 
 @media all and (min-width: 568px) {
@@ -250,7 +259,7 @@ li a:hover {
 #project-hero {
     color: white;
     padding-bottom: 1.5rem;
-  
+    font-size: 5.5rem;
 }
 
 .label {
@@ -283,29 +292,26 @@ li a:hover {
         padding-bottom: 4rem;
 }
 
-#solution-image {
-    padding-top: 3rem;
-}
-
 .captions {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .caption {
     
     color: var(--caption-gray, #575757);
     font-family: 'Inter', sans-serif;
-    font-size: 2rem;
+    font-size: 1.75rem;
     align-self: center;
-    justify-content: center;
+    
     padding-bottom: 8rem;
     
 }
 
-.double-links {
+.links-container {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
     flex-wrap: no-wrap;
     padding-bottom: 8rem;
     width: 100%;
@@ -319,4 +325,23 @@ li a:hover {
     font-size: 2rem;
     padding: 0px 30px;
    
+}
+
+.image-container {
+    display: flex;
+}
+
+.image-side-by-side-1 {
+    flex: 05633802817;
+}
+.image-side-by-side-2 {
+    flex: 05633802817;
+}
+
+.single-link {
+    display: flex;
+    justify-content: center;
+    flex-wrap: no-wrap;
+    padding-bottom: 8rem;
+    width: 100%;
 }
