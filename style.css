@@ -74,7 +74,6 @@ a:focus {
     background: white;
     color: var(--primary, #0f50A6);
     height: 70px;
-    font-family: sans-serif;
     display: flex;
     flex-wrap:wrap;
     align-items: center;
@@ -109,7 +108,8 @@ a:focus {
   .nav-menu .nav-items li {
     font-size: 2.5rem;
     list-style-type: none;
-    padding: 3rem;  
+    padding: 3rem;
+    text-align: center;  
   }
   
   li a {
