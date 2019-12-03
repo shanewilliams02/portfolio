@@ -14,6 +14,10 @@
     --white: #fff;
 }
 
+.full-width {
+    width: 100%;
+}
+
 .header {
     background-color: #fff;
     height: 100vh;
@@ -108,13 +112,8 @@ a:focus {
   .nav-menu .nav-items li {
     font-size: 2.5rem;
     list-style-type: none;
-<<<<<<< HEAD
     padding: 3rem;  
     text-align: center;
-=======
-    padding: 3rem;
-    text-align: center;  
->>>>>>> bc994e54987d7afcbb92fd74325984ceec52c323
   }
   
   li a {
@@ -262,10 +261,11 @@ a:focus {
         padding-bottom: 4rem;
 }
 
-.captions {
+.captions, figcaption {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
 }
 
 .caption {
@@ -304,10 +304,12 @@ a:focus {
 
 /***** SIDE-BY-SIDE IMAGE */
 
-.image-container {
+.multi-image-container {
     display: flex;
     /* justify-content: space-between; */
 }
+
+
 
 .image-background {
     background-color: #F6F9FE;
@@ -334,12 +336,11 @@ a:focus {
 }
 
 .findings-container {
-    display: flex;
-    margin: 1rem 5rem;
+    padding: 0 2rem 2rem 2rem;
 }
 
 .findings-column {
-    flex: 50%;
+    padding-bottom: 2rem;
 }
 
 .findings-heading {
@@ -353,24 +354,41 @@ a:focus {
 }
 
 .findings-subhead {
-    margin-left: 4rem;
     font-family: 'Inter', sans-serif;
     font-size: 2rem;
     font-weight: bold;
     color: white;
+    margin-bottom: 1rem;
 }
 
 .findings {
-    padding: 0rem 2rem 0rem 2rem;
+    /* padding: 0rem 2rem 0rem 2rem; */
     font-family: 'Inter', sans-serif;
     font-size: 1.75rem;
     color: white;
-    margin: 3rem;
+    /* margin: 3rem; */
     line-height: 2.5rem;
 }
 
 .findings li {
-    padding: 1.25rem 1rem 1.25rem 1rem;
+    padding: 0 0 .75rem 1rem;
+    margin-left: 1.5rem;
+    list-style-type: initial;
+
+}
+
+@media all and (min-width: 580px) {
+    .findings-container {
+        display: flex;
+    }
+
+    .findings-column {
+        margin: 0 2rem;
+    }
+
+    .findings li {
+        padding: 0 0 1rem 2rem;
+    }
 }
 
 .findings li span {
