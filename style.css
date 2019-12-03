@@ -74,7 +74,6 @@ a:focus {
     background: white;
     color: var(--primary, #0f50A6);
     height: 70px;
-    font-family: sans-serif;
     display: flex;
     flex-wrap:wrap;
     align-items: center;
@@ -83,7 +82,7 @@ a:focus {
   .nav-logo {
     background: white;
     width: 30%;
-    padding: 16px 40px;
+    padding: 0px 40px;
     text-align: left;
   }
   
@@ -110,6 +109,7 @@ a:focus {
     font-size: 2.5rem;
     list-style-type: none;
     padding: 3rem;  
+    text-align: center;
   }
   
   li a {
@@ -131,6 +131,7 @@ a:focus {
       text-align: center;
       width: 100%;
       border-bottom: 1px solid rgba(0,0,0,0.1);
+      padding: 16px 40px;
     }
     .nav .nav-menu {
       width: 100%;
@@ -147,53 +148,6 @@ a:focus {
       font-size: 16px;
     }
   }   
-
-
-/* **** NAVIGATION STYLES ****
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
-
-nav h2 {
-    -webkit-text-stroke: 0.5px #0F50A6;
-    font-size: 3rem;
-    color: var(--logo-blue);
-    width: 40%;
-    padding: 2.25rem 2rem;
-}
-
-nav h2 a:visited {
-    color:inherit;
-    -webkit-text-stroke: inherit;
-}
-
-nav a {
-    text-decoration: none;
-}
-
-nav ul {
-    text-decoration: none;
-    width: 60%;
-}
-
-nav li {
-    font-size: 2.5rem;
-    float: right;
-    padding: 3rem;
-}
-
-li a {
-    text-decoration: none;
-    color: var(--primary, #0F50A6);
-}
-
-li a:hover {
-    text-decoration: none;
-    border-bottom: 4px solid var(--primary, #0F50A6);
-} */
 
 /* HOMEPAGE HERO */
 
@@ -225,13 +179,15 @@ li a:hover {
     font-size: 2rem;
     color: var(--black);
     padding-top: 10px;
+    padding-left: 3px;
+
     width: 70%;
     
 }
 
-@media all and (min-width: 300px) {
+@media all and (max-width: 567px) {
     .hero h1 {
-        font-size: 2.5rem;
+        font-size: 3.25rem;
     }
     .hero p {
         font-size: 1.5rem;
@@ -240,13 +196,20 @@ li a:hover {
 
 @media all and (min-width: 568px) {
     .hero h1 {
-        font-size: 5.5rem;
+        font-size: 5rem;
+    }
+    .hero p {
+        font-size: 2rem;
     }
 }
 
 @media all and (min-width: 1180px) {
     .hero h1 {
-        font-size: 8rem;
+        font-size: 8rem; 
+    }
+    .hero p {
+        font-size: 2.25rem;
+        
     }
 }
 
@@ -273,7 +236,9 @@ li a:hover {
 
 /***** PROJECT CONTENT *******/
 .project-section {
-    padding-bottom: 4rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    
 }
 
 .section-heading {
@@ -304,7 +269,7 @@ li a:hover {
     font-size: 1.75rem;
     align-self: center;
     padding-bottom: 6rem;
-    padding-top: 2rem;
+    padding-top: 3rem;
 }
 
 .links-container {
@@ -321,7 +286,7 @@ li a:hover {
     color: var(--primary, #0F50A6);
     font-family: 'Inter', sans-serif;
     font-size: 2rem;
-    padding: 0px 30px;
+    padding: 32px 30px;
 }
 
 .single-link {
@@ -336,7 +301,6 @@ li a:hover {
 
 .image-container {
     display: flex;
-    margin-bottom: 56px;
     /* justify-content: space-between; */
 }
 
@@ -379,7 +343,8 @@ li a:hover {
     font-weight: bold;
     color: white;
     text-align: center;
-    padding: 4rem;
+    padding: 4rem 4rem 4.5rem 4rem;
+
 }
 
 .findings-subhead {
@@ -391,7 +356,7 @@ li a:hover {
 }
 
 .findings {
-    padding: 2rem;
+    padding: 0rem 2rem 0rem 2rem;
     font-family: 'Inter', sans-serif;
     font-size: 1.75rem;
     color: white;
@@ -400,7 +365,7 @@ li a:hover {
 }
 
 .findings li {
-    padding: 1rem;
+    padding: 1.25rem 1rem 1.25rem 1rem;
 }
 
 .findings li span {
