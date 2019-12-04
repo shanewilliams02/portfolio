@@ -273,15 +273,14 @@ a:focus {
     font-family: 'Inter', sans-serif;
     font-size: 1.75rem;
     align-self: center;
-    padding-bottom: 6rem;
-    padding-top: 3rem;
+    padding: 3rem 0;
 }
 
-.links-container {
+.links-container, .single-link {
     display: flex;
     justify-content: center;
     flex-wrap: no-wrap;
-    padding-bottom: 5rem;
+    padding-bottom: 2rem;
     width: 100%;
 }
 
@@ -291,15 +290,7 @@ a:focus {
     color: var(--primary, #0F50A6);
     font-family: 'Inter', sans-serif;
     font-size: 2rem;
-    padding: 32px 30px;
-}
-
-.single-link {
-    display: flex;
-    justify-content: center;
-    flex-wrap: no-wrap;
-    padding-bottom: 5rem;
-    width: 100%;
+    padding: 20px;
 }
 
 /***** SIDE-BY-SIDE IMAGE */
@@ -332,6 +323,7 @@ a:focus {
 
 .findings-dark-background {
     background-color: #0f50A6;
+    margin-bottom: 8rem;
     
 }
 
@@ -422,9 +414,15 @@ a:focus {
     font-family: 'Inter', sans-serif;
 }
 
+@media all and (min-width: 800px) and (max-width: 1200px) {
+    .persona { 
+        min-height: 800px;
+    }
+}
+
 .persona img {
   width: 100%;
-  border-radius: 4px 4px 0px 0px;
+  border-radius: 8px 8px 0px 0px;
 }
 
 .persona h4 {
