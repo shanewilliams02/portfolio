@@ -226,7 +226,7 @@ a:focus {
 #project-hero {
     color: white;
     padding-bottom: 1.5rem;
-    font-size: 5.5rem;
+    font-size: 8rem;
 }
 
 .label {
@@ -394,4 +394,56 @@ a:focus {
 .findings li span {
     font-weight: bold;
     font-size: 2rem;
+}
+
+
+
+.text-center {
+    text-align: center;
+}
+
+.persona-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.persona {
+    background-color: #0F50A6;
+    box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    color: white;
+    flex: 1;
+    padding: 0 0px 0px;
+    margin: 2%;
+    min-width: 350px;
+    max-width: 480px;
+    font-family: 'Inter', sans-serif;
+}
+
+.persona img {
+  width: 100%;
+  border-radius: 4px 4px 0px 0px;
+}
+
+.persona h4 {
+    font-size: 3rem;
+    padding: 20px 0px;
+}
+
+.persona h5 {
+  padding-left: 32px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.persona ul {
+  font-size: 1.75rem;
+  padding: 16px 32px 32px 52px;
+  list-style-type: initial;
+}
+
+.persona ul li {
+    padding: .5rem;
 }
