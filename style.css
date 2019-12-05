@@ -460,6 +460,12 @@ a:focus {
     justify-items: center;
 }
 
+@media all and (max-width: 580px) {
+    .nomobile {
+        display: none;
+    }
+}
+
 @media all and (max-width: 1080px) {
     .multi-image-grid {
         display: grid;
