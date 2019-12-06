@@ -20,10 +20,10 @@
 
 .header {
     background-color: #fff;
-    height: 100vh;
+    margin-bottom: 2rem;
 }
 
-@media all and (max-width:1000px) {
+@media all and (min-width:1000px) {
     .header {
         margin-bottom: 8rem;
     }
@@ -36,10 +36,8 @@
 
 .image-container, .content-container, .findings-container {
     margin: 0 auto;
-    width: 96%;
+    width: 92%;
 }
-
-
 
 @media all and (min-width: 568px) {
     .container {
@@ -54,13 +52,6 @@
 
     .content-container {
         width: 60%;
-    }
-}
-
-@media all and (max-width: 568px) {
-    .content-container {
-        margin-left: 16px;
-        padding-right: 18px;
     }
 }
 
