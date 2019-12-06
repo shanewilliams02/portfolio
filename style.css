@@ -39,6 +39,8 @@
     width: 96%;
 }
 
+
+
 @media all and (min-width: 568px) {
     .container {
         width: 80%;
@@ -53,7 +55,13 @@
     .content-container {
         width: 60%;
     }
+}
 
+@media all and (max-width: 568px) {
+    .content-container {
+        margin-left: 16px;
+        padding-right: 18px;
+    }
 }
 
 a:focus {
@@ -310,6 +318,7 @@ a:focus {
 
     .section-text {
         font-size: 2rem;
+ 
     }
 
     .caption {
