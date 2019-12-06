@@ -23,6 +23,12 @@
     height: 100vh;
 }
 
+@media all and (max-width:1000px) {
+    .header {
+        margin-bottom: 8rem;
+    }
+}
+
 .heading-container {
     margin: auto;
     width: 70%;
@@ -295,6 +301,26 @@ a:focus {
     font-family: 'Inter', sans-serif;
     font-size: 2rem;
     padding: 20px;
+}
+
+
+@media all and (max-width: 568px) {
+    .section-heading {
+        font-size: 3.5rem;
+    }
+
+    .section-text {
+        font-size: 2rem;
+    }
+
+    .caption {
+        font-size: 1.5rem;
+    }
+
+    .links {
+        font-size: 1.75rem;
+    }
+    
 }
 
 /***** SIDE-BY-SIDE IMAGE */
