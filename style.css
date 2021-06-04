@@ -161,7 +161,7 @@ li a:hover {
 .hero {
 	display: flex;
 	align-items: center;
-	height: 80vh;
+	height: 72vh;
 }
 
 .hero h1 {
@@ -191,7 +191,7 @@ li a:hover {
 
 @media all and (max-width: 567px) {
 	.hero h1 {
-		font-size: 2.6rem;
+		font-size: 3.2rem;
 	}
 	.hero p {
 		font-size: 1.6rem;
@@ -202,7 +202,7 @@ li a:hover {
 
 @media all and (min-width: 568px) {
 	.hero h1 {
-		font-size: 5rem;
+		font-size: 4.75rem;
 	}
 	.hero p {
 		font-size: 2rem;
@@ -615,3 +615,9 @@ figcaption {
 	line-height: 3rem;
 	padding-bottom: 4rem;
 }
+
+/* CONTACT PAGE
+
+.contact-link a {
+	color: red;
+} */
