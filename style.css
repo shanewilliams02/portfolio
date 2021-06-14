@@ -131,6 +131,12 @@ li a:hover {
 	padding-bottom: 12px;
 }
 
+.nav a.active {
+	text-decoration: none;
+	border-bottom: 4px solid var(--primary, #0f50a6);
+	padding-bottom: 12px;
+}
+
 @media screen and (max-width: 1000px) {
 	.nav {
 		height: auto;
@@ -620,4 +626,10 @@ figcaption {
 
 #hero_subheading a {
 	color: var(--primary, #0f50a6);
+}
+
+/* ABOUT PAGE */
+
+#about-heading {
+	padding-top: 22.5vh;
 }
