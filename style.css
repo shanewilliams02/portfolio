@@ -133,8 +133,9 @@ li a:hover {
 
 .nav a.active {
 	text-decoration: none;
-	border-bottom: 4px solid var(--primary, #0f50a6);
+	border-bottom: 4px solid var(--dark-gray, #333333);
 	padding-bottom: 12px;
+	color: var(--dark-gray, #333333);
 }
 
 @media screen and (max-width: 1000px) {
