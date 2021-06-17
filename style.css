@@ -554,6 +554,8 @@ footer {
 	color: #fff;
 	background-color: #0f50a6;
 	margin-top: 12rem;
+	/* position: fixed;
+	width: 100%; */
   }
 
    .container {
@@ -713,4 +715,32 @@ footer {
 
 #about-heading {
 	padding-top: 22.5vh;
+}
+
+
+/* RESUME PAGE */
+.resume-image{
+	box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.10);
+	margin-top: 10rem;
+	margin-bottom: 4rem;
+}
+
+#resume-download-link {
+	margin-bottom: 4rem;
+}
+
+@media all and (max-width: 1024px){
+	.resume-image {
+		margin-top: 4rem;
+	}
+}
+
+@media all and (max-width: 1000px ){
+	.resume-image {
+		margin-bottom: 2rem;
+	}
+	#resume-download-link {
+		font-size: 1.75rem;
+		
+	}
 }

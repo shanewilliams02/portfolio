@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/reset.css">
+    <link rel="stylesheet" href="/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
 </head>
@@ -23,45 +23,30 @@
           <div class="nav-menu">
             <ul class="nav-items">
               <li><a href="/casestudy/hello-neighbor.html">work</a></li>
-              <li><a href="about.html">about</a></li>
-              <li><a href="contact.html">contact</a></li>
-              <li><a href="/resume/resume.html">résumé</a></li>
+              <li><a href="/about.html">about</a></li>
+              <li><a href="/contact.html">contact</a></li>
+              <li><a class="active" href="resume.html">résumé</a></li>
             </ul>
           </div>
         </nav>
-
-
-        <section class="heading-container">
-            <div class="hero">
-                <div>
-                    <!-- fix font for home hero -->
-                    <h1><span>Shane Williams</span></h1>
-                    <h1>UX designer</h1>
-                    <h1><span>Durham, NC</span></h1>
-                    <p id="hero_subheading">
-                        I'm passionate about creating accessible solutions to complex problems through inclusive design.
-                    </p>
-                </div>
+        <div class="image-background">
+        <figure class="image-container">
+           <a href="/resume/Shane Williams-Resume.pdf" download"><img id="solution-image" class="resume-image"  src="Shane Williams-Resume.jpg" alt="Shane Williams' resume"></a> 
+            <!-- <figcaption class="caption">HelloNeighbor's Responsive Scheduling Interface</p> -->
+            <div class="links-container">
+                <a id="resume-download-link" href="/resume/Shane Williams-Resume.pdf" download class="links">Download Resume (PDF)</a>
+                <!-- <a href="/" class="links">View All Project Assets</a> -->
             </div>
-        </section>
-    </header>
+        </figure>
+      </div>
 
-    <!-- MAIN CONTENT -->
-    <main id="main">
-        <div>
-
-        </div>
-    </main>
-
-    
-      <!-- FOOTER -->
-    <footer>
+      <footer>
         <div class="footer-container">
             <ul class="flex-row">
                  <li class=footer-nav-link><a href="/casestudy/hello-neighbor.html">work</a></li>
                  <li class=footer-nav-link><a href="/about.html">about</a></li>
                  <li class=footer-nav-link><a href="/contact.html">contact</a</li>
-                 <li class=footer-nav-link><a href="/">résumé</a></li>
+                 <li class=footer-nav-link><a href="/resume/resume.html">résumé</a></li>
             </ul>
             <ul class="flex-row">
               <li><a class="footer-icon-link" href="http://linkedin.com/shane-a-williams"><i class="fab fa-linkedin"></i></a></li>
@@ -70,18 +55,3 @@
             <p>Design & Code by Shane Williams, &copy; 2021</p>
         </div>
       </footer>
-
-
-
-
-    <!-- OLD FOOTER -->
-
-    <!-- <footer class="footer-role" role=footer>
-        <section class="footer-container">
-            <div class="footer-text-container">
-                <p id="footer-text">Design and Code by Shane Williams &copy 2021</p> 
-            </div>
-        </section>
-    </footer> -->
-</body>
-</html>
