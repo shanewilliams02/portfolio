@@ -174,8 +174,7 @@ li a:hover {
 .hero h1 {
 	font-family: 'Archivo Black', sans-serif;
 	font-size: 4.5rem;
-	/* color: var(--dark-gray, #333333); */
-	color: red;
+	color: var(--dark-gray, #333333);
 	line-height: 0.9;
 	text-transform: uppercase;
 }
