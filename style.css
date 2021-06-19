@@ -204,7 +204,7 @@ li a:hover {
 
 @media all and (max-width: 567px) {
 	.hero h1 {
-		font-size: 3.2rem;
+		font-size: 3.1rem;
 		line-height: 0.975;
 	}
 	.hero p {
