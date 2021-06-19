@@ -198,6 +198,10 @@ li a:hover {
 
 }
 
+.hero-text-link {
+	color: var(--primary, #0f50a6);
+}
+
 @media all and (max-width: 567px) {
 	.hero h1 {
 		font-size: 3.2rem;
