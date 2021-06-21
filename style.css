@@ -90,23 +90,24 @@ a:focus {
 
 .nav-logo {
 	background: white;
-	width: 30%;
+	width: 27%;
 	padding: 0px 40px;
 	text-align: left;
 }
 
 .nav-logo a {
-	-webkit-text-stroke: 0.5px #0f50a6;
+	/* display: block; */
+	/* -webkit-text-stroke: 0.5px #0f50a6; */
 	font-family: 'DM Serif Display', serif;
 	font-size: 3rem;
 	color: var(--primary);
-	width: 40%;
-	padding: 2.25rem 2rem;
+	/* width: 40%; */
+	padding: 1rem 1rem;
 	text-decoration: none;
 }
 
 .nav-menu {
-	width: 70%;
+	width: 73%;
 }
 
 .nav-menu .nav-items {
@@ -122,14 +123,14 @@ a:focus {
 }
 
 li a {
-	/* display: block; */
+	display: block;
 	text-decoration: none;
 	color: var(--primary, #0f50a6);
 }
 
 li a:hover {
 	text-decoration: none;
-	border-bottom: 4px solid var(--primary, #0f50a6);
+	border-bottom: 3px solid var(--primary, #0f50a6);
 	padding-bottom: 12px;
 }
 
@@ -148,7 +149,7 @@ li a:hover {
 		text-align: center;
 		width: 100%;
 		border-bottom: 0.20px solid rgb(15, 80, 166, 0.17);
-		padding: 16px 40px;
+		padding: 2rem 0.5rem;
 	}
 	.nav .nav-menu {
 		width: 100%;
