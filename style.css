@@ -81,7 +81,7 @@ a:focus {
 .nav {
 	background: white;
 	color: var(--primary, #0f50a6);
-	height: 70px;
+	height: 10vh;
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
@@ -96,7 +96,7 @@ a:focus {
 }
 
 .nav-logo a {
-	/* display: block; */
+	display: block;
 	/* -webkit-text-stroke: 0.5px #0f50a6; */
 	font-family: 'DM Serif Display', serif;
 	font-size: 3rem;
@@ -113,12 +113,13 @@ a:focus {
 .nav-menu .nav-items {
 	display: flex;
 	justify-content: flex-end;
+	height: 8vh;
 }
 
 .nav-menu .nav-items li {
 	font-size: 2.5rem;
 	list-style-type: none;
-	padding: 3rem;
+	padding: 2rem 3rem;
 	text-align: center;
 }
 
@@ -131,13 +132,13 @@ li a {
 li a:hover {
 	text-decoration: none;
 	border-bottom: 3px solid var(--primary, #0f50a6);
-	padding-bottom: 12px;
+	padding-bottom: 8px;
 }
 
 .nav a.active {
 	text-decoration: none;
-	border-bottom: 4px solid var(--dark-gray, #333333);
-	padding-bottom: 12px;
+	border-bottom: 3px solid var(--dark-gray, #333333);
+	padding-bottom: 8px;
 	color: var(--dark-gray, #333333);
 }
 
@@ -149,10 +150,11 @@ li a:hover {
 		text-align: center;
 		width: 100%;
 		border-bottom: 0.20px solid rgb(15, 80, 166, 0.17);
-		padding: 2rem 0.5rem;
+		padding: 1rem 0.5rem;
 	}
 	.nav .nav-menu {
 		width: 100%;
+		padding-bottom: 10px;
 	}
 
 	.nav .nav-menu ul {
