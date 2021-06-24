@@ -81,7 +81,7 @@ a:focus {
 .nav {
 	background: white;
 	color: var(--primary, #0f50a6);
-	height: 10vh;
+	height: 7vh;
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
@@ -113,7 +113,7 @@ a:focus {
 .nav-menu .nav-items {
 	display: flex;
 	justify-content: flex-end;
-	height: 8vh;
+	height: 6vh;
 }
 
 .nav-menu .nav-items li {
@@ -154,7 +154,7 @@ li a:hover {
 	}
 	.nav .nav-menu {
 		width: 100%;
-		padding-bottom: 10px;
+		/* padding-bottom: 10px; */
 	}
 
 	.nav .nav-menu ul {
@@ -583,17 +583,17 @@ footer {
 	justify-content: center;
 	list-style: none;
 	padding-top: 28px;
-	/* height: 6rem;					 */
+	height: 6rem;					
   }
   
   .flex-row li {
 	margin: 0 20px;
-	/* margin-bottom: 16px;
-	margin-left: 20px; */
+	/* margin-bottom: 16px; */
+	/*margin-left: 20px; */
   }
 	
 .flex-row a {
-	padding: 0 12px;
+	padding: 10px 12px;
 	color: white;
 	}
 	
@@ -618,7 +618,8 @@ footer {
 	.footer-icon-link i {
 	  cursor: pointer;
 	  font-size: 3rem;
-	  margin-bottom: 28px;
+	  margin-top: 4px;
+	  /* margin-bottom: 8px; */
 	} 
   
   footer p {
@@ -626,6 +627,7 @@ footer {
 	font-size: 1.45rem;
 	text-align: center;
 	padding-bottom: 1.4rem;
+	margin-top: 40px;
   }
   
   @media all and (max-width: 567px) {
@@ -636,6 +638,10 @@ footer {
 		display:flex;
 		flex-direction: column;
 		align-items: center;
+		height: 20rem;
+	}
+	.flex-row li {
+		margin: 0 20px;
 	}
 	.footer-nav-link{
 		padding: 2rem 0;
@@ -643,7 +649,7 @@ footer {
 	.footer-icon-link i {
 		font-size: 2.5rem;
 		margin-bottom: 20px;
-		padding: 10px 0;
+		/* padding: 10px 0; */
 	}
 }
   
