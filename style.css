@@ -81,7 +81,7 @@ a:focus {
 .nav {
 	background: white;
 	color: var(--primary, #0f50a6);
-	height: 7vh;
+	height: 11vh;
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
@@ -102,7 +102,7 @@ a:focus {
 	font-size: 3rem;
 	color: var(--primary);
 	/* width: 40%; */
-	padding: 1rem 1rem;
+	padding: 1.5rem 1rem 0rem 1rem;
 	text-decoration: none;
 }
 
@@ -113,7 +113,7 @@ a:focus {
 .nav-menu .nav-items {
 	display: flex;
 	justify-content: flex-end;
-	height: 6vh;
+	height: 9vh;
 }
 
 .nav-menu .nav-items li {
